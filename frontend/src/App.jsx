@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home.jsx";
 import Cart from "./pages/Cart/Cart.jsx";
 import PlaceOrder from "./pages/PlaceOrder/PlaceOrder.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import AppDownload from "./components/AppDownload/AppDownload.jsx";
 export default function App() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/Order" element={<PlaceOrder />} />
         </Routes>
       </div>
+      <AppDownload />
       <Footer />
     </>
   );
