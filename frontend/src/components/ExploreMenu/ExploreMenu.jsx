@@ -24,16 +24,16 @@ export default function ExploreMenu({ category, setCategory }) {
               className="explore-menu-list-item"
             >
               <img
-                className={category === item.menu_name ? "active" : " "}
+                className={category === item.menu_name ? "active" : ""}
                 src={item.menu_image}
                 alt=""
               />
               <p>{item.menu_name}</p>
-              <hr />
             </div>
           );
         })}
       </div>
+      <hr />
     </div>
   );
 }
